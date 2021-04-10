@@ -126,7 +126,7 @@ function drawBoard(Board)
 end
 
 function main()
-    print("press ctrl+c to end playing")
+    print("press ctrl+c to stop playing")
 
     board = { }
 
