@@ -110,19 +110,19 @@ function getComputerMove(board)
 end
 
 function drawBoard(Board)
-    print("*************")
-    print("*   *   *   *")
-    print("* " .. Board["1\n"] .. " * " .. Board["2\n"] .. " * " .. Board["3\n"] .. " *")
-    print("*   *   *   *")
-    print("*************")
-    print("*   *   *   *")
-    print("* " .. Board["4\n"] .. " * " .. Board["5\n"] .. " * " .. Board["6\n"] .. " *")
-    print("*   *   *   *")
-    print("*************")
-    print("*   *   *   *")
-    print("* " .. Board["7\n"] .. " * " .. Board["8\n"] .. " * " .. Board["9\n"] .. " *")
-    print("*   *   *   *")
-    print("*************")
+    print("-------------")
+    print("|   |   |   |")
+    print("| " .. Board["1\n"] .. " | " .. Board["2\n"] .. " | " .. Board["3\n"] .. " |")
+    print("|   |   |   |")
+    print("-------------")
+    print("|   |   |   |")
+    print("| " .. Board["4\n"] .. " | " .. Board["5\n"] .. " | " .. Board["6\n"] .. " |")
+    print("|   |   |   |")
+    print("-------------")
+    print("|   |   |   |")
+    print("| " .. Board["7\n"] .. " | " .. Board["8\n"] .. " | " .. Board["9\n"] .. " |")
+    print("|   |   |   |")
+    print("-------------")
 end
 
 function main()
@@ -184,7 +184,7 @@ function main()
 
     end
 
-
+    drawBoard(board)
 
 end
 
