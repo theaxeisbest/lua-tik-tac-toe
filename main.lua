@@ -93,6 +93,11 @@ function mustMove(board)
 end
 
 function getComputerMove(board)
+
+    if board["5\n"] == " " then
+        return "5\n"
+    end
+
     move = mustMove(board)
 
     moves = {"1\n", "2\n", "3\n", "4\n", "5\n", "6\n", "7\n", "8\n", "9\n"}
